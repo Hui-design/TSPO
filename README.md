@@ -20,8 +20,9 @@ To addressing the challenges of unsupervised and non-differentiable sparse frame
 - Our trained temporal agent (TSPO-0.4B) demonstrates strong generalizability. When applied to LLaVA-Video-7B, it achieves an average improvement of **4.3%** across four benchmarks; with Qwen2.5VL-7B, the gain reaches **6.1%**. Transferability to other backbones is further analyzed in Table 2 of our paper.
 
 <div align="center">
-  <img src="./assets/main_results.png" width="700" height="350" style="object-fit: contain;">
+  <img src="./assets/main_results.png" width="650" height="325" style="object-fit: contain;">
 </div>
+
 
 
 ## 🧸 Toy example
@@ -57,7 +58,7 @@ cd ../
 
 ## 🎥 Demo 
 
-- Download  [LLaVA-Video-Qwen-7B](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2) or  [Qwen2.5vl-7B](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct), and our [TSPO-0.4B](). Then, you can try the ``demo/llava_video_tspo.py`` or ``demo/qwen25vl_tspo.py`` . 
+- Download  [LLaVA-Video-Qwen-7B](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2) or  [Qwen2.5vl-7B](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct), and our 🤗[TSPO-0.4B](). Then, you can try the ``demo/llava_video_tspo.py`` or ``demo/qwen25vl_tspo.py`` . 
 
 - We provide example long videos: [208.mp4](https://drive.google.com/file/d/1FDIxxIcyjL0v2O6sGc0KljXi8MRLDFJk/view?usp=sharing), [7XWqI121-Q4.mp4](https://drive.google.com/file/d/1qh-8I1DsgH5TbqEbr05PPO5hdGtvUK23/view?usp=sharing), [5dJUUQufzw4.mp4](https://drive.google.com/file/d/1lBf6Oo7jkhi7-fSvrc_U7SqvqET3vhrh/view?usp=sharing). you can feel free to edit the "video_path" and "question".  Our model will output the responses and the sampled frames will be saved under the demo directory.
 
