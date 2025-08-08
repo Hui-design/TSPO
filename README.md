@@ -6,7 +6,7 @@
 
 ## 👀 Overview
 
-Inspired by Deepseek-R1's GRPO algorithm, We propose **Temporal Sampling Policy Optimization (TSPO)**, a reinforcement learning framework that advances long-form video understanding by addressing the challenges of unsupervised and non-differentiable sparse frame sampling.
+To addressing the challenges of unsupervised and non-differentiable sparse frame sampling in Video-MLLMs, We propose **Temporal Sampling Policy Optimization (TSPO)**, a reinforcement learning framework that advances long-form video understanding.
 
 <div align="center">
   <img src="./assets/main_fig.png" width="800" height="400" style="object-fit: contain;">
