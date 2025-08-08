@@ -17,7 +17,7 @@ Inspired by Deepseek-R1's GRPO algorithm, We propose **Temporal Sampling Policy 
 
 - Our method achieves **63.9%** accuracy on LongVideoBench and **76.3%** on MLVU, setting a new state-of-the-art performance among 7B video-MLLMs.
 
-- Our trained temporal agent (TSPO-0.4B) demonstrates strong generalizability. When applied to LLaVA-Video-7B, it achieves an average improvement of **4.3%** across four benchmarks; with Qwen2.5VL-7B, the gain reaches **5.3%**. Transferability to other backbones is further analyzed in Table 2 of our paper.
+- Our trained temporal agent (TSPO-0.4B) demonstrates strong generalizability. When applied to LLaVA-Video-7B, it achieves an average improvement of **4.3%** across four benchmarks; with Qwen2.5VL-7B, the gain reaches **6.1%**. Transferability to other backbones is further analyzed in Table 2 of our paper.
 
 <div align="center">
   <img src="./assets/main_results.png" width="700" height="350" style="object-fit: contain;">
