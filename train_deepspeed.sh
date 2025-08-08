@@ -4,15 +4,6 @@ export WANDB_NAME=final_10k_16_12_5e-4
 # 禁用WANDB
 export WANDB_MODE=disabled
 
-# ---------------- 多机多卡相关环境变量 ----------------
-export OMP_NUM_THREADS=1
-export NCCL_SOCKET_IFNAME=eth0 #指定ib网卡
-export NCCL_IB_HCA=mlx5_0      #指定驱动
-export NCCL_DEBUG=INFO
-export NCCL_IB_DISABLE=0
-export NCCL_P2P_DISABLE=0
-export NCCL_IB_TIMEOUT=22   # 避免NCCL_timeout
-export NCCL_TIMEOUT=300 # 避免NCCL_timeout
 
 mkdir -p ./ckpt/$WANDB_PROJECT/$WANDB_NAME
 
