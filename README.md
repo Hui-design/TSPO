@@ -141,10 +141,10 @@ python scripts/merge_weights.py
 
   ```
   # For LLaVA-Video
-  bash eval_scripts/TSPO_llava_video.sh LongVideoBench TSPO  # dataset_name method_name 
+  bash evaluation/TSPO_llava_video.sh LongVideoBench TSPO  # dataset_name method_name 
   
   # For Qwen2.5-VL+TSPO
-  bash eval_scripts/TSPO_qwen25_vl.sh LongVideoBench TSPO
+  bash evaluation/TSPO_qwen25_vl.sh LongVideoBench TSPO
   ```
 
   
@@ -153,10 +153,10 @@ python scripts/merge_weights.py
 
   ```
   # For Original Qwen2.5-VL 
-  bash eval_scripts/original_qwen25_vl.sh
+  bash evaluation/original_qwen25_vl.sh
   
   # For Original LLaVA-Video
-  bash eval_scripts/original_llava_video.sh
+  bash evaluation/original_llava_video.sh
   ```
 
   
