@@ -153,10 +153,10 @@ python scripts/merge_weights.py
 
   ```
   # For Original Qwen2.5-VL 
-  bash evaluation/original_qwen25_vl.sh
+  bash evaluation/original_qwen25_vl.sh LongVideoBench xxx  # dataset_name method_name 
   
   # For Original LLaVA-Video
-  bash evaluation/original_llava_video.sh
+  bash evaluation/original_llava_video.sh LongVideoBench xxx # dataset_name method_name 
   ```
 
   
