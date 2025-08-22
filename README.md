@@ -31,7 +31,7 @@ We present a toy example to show how TSPO works. We follow an intuition that Vid
 
 - As shown in the GIF, through TSPO training, the temporal agent learns to select frames that lead to the correct answer for the question *"What is the scene at the beginning of the video?"*. As a result, $R_A$ increases, the predicted score peaks converge at the video's beginning, and the sampled frames converge to this time segment. 
 
-- **For reproduce this example**, first download [LLaVA-Video-Qwen](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2), [CLIP-Large](https://huggingface.co/openai/clip-vit-large-patch14), and [208.mp4](https://drive.google.com/file/d/1FDIxxIcyjL0v2O6sGc0KljXi8MRLDFJk/view?usp=sharing), and modify the ``model_name_or_path`` and ``clip_path`` in the ``toy_example.sh``.  The script can be run on a single GPU with at least 28GB.
+- **For reproduce this example**, first set up the environment as the following section, and then download [LLaVA-Video-Qwen](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2), [CLIP-Large](https://huggingface.co/openai/clip-vit-large-patch14), and [208.mp4](https://drive.google.com/file/d/1FDIxxIcyjL0v2O6sGc0KljXi8MRLDFJk/view?usp=sharing), and modify the ``model_name_or_path`` and ``clip_path`` in the ``toy_example.sh``.  The script can be run on a single GPU with at least 28GB.
 
 <div align="center">
   <img src="./assets/gif_short.gif" width="800" height="400" style="object-fit: contain;">
