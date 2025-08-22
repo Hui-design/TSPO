@@ -14,7 +14,8 @@ fi
 
 save_name="${dataset_name}"
 export HF_HOME="evaluation/data/videos/${dataset_name}"
-export LMMSJSON="evaluation/jsons_idx/${experiment_name}_${dataset_name}_frameIdx.json"
+# export LMMSJSON="evaluation/jsons_idx/${experiment_name}_${dataset_name}_frameIdx.json"
+export LMMSJSON="evaluation/jsons/${dataset_name}.json"
 
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --num_processes 8 --main_process_port 12345 -m lmms_eval \
     --model qwen2_5_vl_tspo \
