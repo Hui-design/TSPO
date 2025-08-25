@@ -176,6 +176,11 @@ python scripts/merge_weights.py
 If you find our work helpful for your research, please consider citing our work.   
 
 ```
-To be updated
+@article{tang2025tspo,
+  title={TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding},
+  author={Tang, Canhui and Han, Zifan and Sun, Hongbo and Zhou, Sanping and Zhang, Xuchong and Wei, Xin and Yuan, Ye and Xu, Jinglin and Sun, Hao},
+  journal={arXiv preprint arXiv:2508.04369},
+  year={2025}
+}
 ```
 
