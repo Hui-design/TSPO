@@ -184,3 +184,6 @@ If you find our work helpful for your research, please consider citing our work.
 }
 ```
 
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/Hui-design/TSPO.svg?variant=adaptive)](https://starchart.cc/Hui-design/TSPO)
+
