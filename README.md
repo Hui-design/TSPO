@@ -1,4 +1,4 @@
-# TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding
+# [AAAI2026] TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding
 
 [[📖 Paper](https://arxiv.org/pdf/2508.04369)] [[🤗 TSPO-model](https://huggingface.co/hzf666/TSPO-0.4B)] [[🤗 TSPO-train-data](https://huggingface.co/datasets/Canhui99/TSPO-10K)] 
 
